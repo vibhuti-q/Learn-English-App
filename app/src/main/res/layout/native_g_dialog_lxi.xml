@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.google.android.gms.ads.formats.UnifiedNativeAdView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:minHeight="50dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvAdIconlxi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top|start"
+                    android:background="#FFCC66"
+                    android:text="Ad"
+                    android:textColor="#FFFFFF"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ad_app_iconlxi"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_toEndOf="@+id/tvAdIconlxi"
+                    android:adjustViewBounds="true"
+                    android:paddingHorizontal="5dp"
+                    android:paddingBottom="5dp"
+                    tools:src="@drawable/logo_lxi" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/ad_headlinelxi"
+                    style="@style/semiBold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/ad_app_iconlxi"
+                    android:textColor="#0000FF"
+                    android:textSize="16sp"
+                    tools:text="Ad Headline" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/ad_advertiserlxi"
+                    style="@style/semiBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ad_headlinelxi"
+                    android:layout_toEndOf="@+id/ad_app_iconlxi"
+                    android:gravity="bottom"
+                    android:textSize="14sp"
+                    tools:text="Advertiser Name" />
+
+                <RatingBar
+                    android:id="@+id/ad_starslxi"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ad_headlinelxi"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_toEndOf="@+id/ad_advertiserlxi"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.5" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/ad_bodylxi"
+                    style="@style/regular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="20dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textSize="12sp"
+                    tools:text="Body of Advertisement" />
+
+                <com.google.android.gms.ads.formats.MediaView
+                    android:id="@+id/ad_medialxi"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/ad_bodylxi"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </com.google.android.gms.ads.formats.UnifiedNativeAdView>
+
+</layout>

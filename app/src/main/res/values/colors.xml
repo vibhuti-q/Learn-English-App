@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4C8FC4</color>
+    <color name="colorPrimaryDark">#FF3D6F9B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="mainCardBg">#A216CB</color>
+    <color name="maincolor">#5FCFC5</color>
+    <color name="bg">#F6F6F6</color>
+    <color name="appcolor">#AAF9F1</color>
+
+    <color name="color_switch_button">#ffffff</color>
+    <color name="color_switch_background_enable_theme1">#4db0ed</color>
+    <color name="color_switch_background_enable_theme2">#C9372D</color>
+    <color name="color_switch_background_disable_theme1">#636363</color>
+    <color name="color_switch_background_disable_theme2">#636363</color>
+
+    <!--Card Colors-->
+    <color name="firstcard">#673AB7</color>
+    <color name="secondcard">#035A81</color>
+    <color name="thirdcard">#11E15D</color>
+    <color name="fourthcard">#FFB217</color>
+    <color name="fifthcard">#160D95</color>
+    <color name="sixthcard">#F10B0B</color>
+    <color name="editTextBG">#DADADA</color>
+
+    <!--Tenses-->
+    <color name="present">#54BE48</color>
+    <color name="past">#FBAE14</color>
+    <color name="future">#BF2449</color>
+    <color name="txtcolor">#707070</color>
+
+    <!--urdu-->
+    <color name="urdu">#4F91CD</color>
+
+
+    <color name="dilog_mesg">#797979</color>
+
+    <color name="light_gray">#e5e5e5</color>
+
+    <color name="teal_700">#FF6200EE</color>
+    <color name="teal_200">#FF6200EE</color>
+    <color name="purple_700">#FF6200EE</color>
+    <color name="purple_200">#FF6200EE</color>
+    <color name="purple_500">#FF6200EE</color>
+
+
+    <color name="payout_bg">#f5f5f5</color>
+    <color name="red">#FFFF0000</color>
+    <color name="overlay_dark_20">#33000000</color>
+    <color name="bgColor">#88000000</color>
+    <color name="buttonTextColor">#000</color>
+    <color name="dark_grey">#636363</color>
+    <color name="grey">#BFBFBF</color>
+    <color name="nv_text_theme1">#4C8FC4</color>
+    <color name="button_transparent_normal">#00ffffff</color>
+    <color name="button_transparent_pressed">#22ffffff</color>
+    <color name="button_transparent_dark_normal">#00000000</color>
+    <color name="button_transparent_dark_pressed">#11000000</color>
+
+    <color name="primaryColor">#000</color>
+    <color name="primaryColorVariant">#CAC7C7</color>
+    <color name="secondaryColor">#fff</color>
+    <color name="secondaryColorVariant">#4da2ff</color>
+    <color name="lightGrey">#f2f2f2</color>
+    <color name="darkGrey">#575757</color>
+    <color name="success">#00c851</color>
+    <color name="danger">#ff4444</color>
+</resources>

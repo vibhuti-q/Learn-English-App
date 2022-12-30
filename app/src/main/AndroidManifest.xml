@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="english.englishgrammar.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".LxiMyApplication"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/edu"
+        tools:replace="android:allowBackup"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/edu"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true">
+
+        <receiver android:name=".Receiver.Notification_receiver" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+
+        <activity
+            android:name=".SettingsActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".WordMeaningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Contact.ContactUs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ContactUs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EnglishLessons"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ConversationsList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ConversationTopics"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MoralStories"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ConversationDialogActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PartOfSpeech_Detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PartsOfSpeech"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizOfTheDay"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tenses"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Phrases"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VocabularyWords"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PastPerfectTense"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PastPerfectContinuousTense"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WordsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FutureIndefinateTense"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PresentContinuousTense"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FuturePerfectContinuousTense"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FutureContinuousTense"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FuturePerfectTense"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PastContinuousTense"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FutureTense"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PresentPerfectTense"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PresentPerfectContinuousTense"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PastIndefinateTense"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FavouriteMessages"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PresentTense"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MessageOfTheDay"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DictionaryActivity"
+            android:configChanges="uiMode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dic.ui.main.DetailActivity"
+            android:configChanges="uiMode"
+            android:screenOrientation="portrait" />h
+        <activity
+            android:name=".Dic.ui.main.Dic_MainActivity"
+            android:configChanges="uiMode"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".WordDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PastTense"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PresentIndefinateTense"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EnglishExercise"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="uiMode"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".contactus_lxi.LxiChatW2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ad_module.jaky_lxi.core_lxi.LxiSplashTESActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ad_module.jaky_lxi.core_lxi.LxiAppUpdateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ad_module.jaky_lxi.core_lxi.LxiMaintenanceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ad_module.jaky_lxi.core_lxi.LxiWeMovedActivity"
+            android:screenOrientation="portrait" />
+    </application>
+</manifest>

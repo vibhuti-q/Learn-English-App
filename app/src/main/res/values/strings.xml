@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Learn English Language</string>
+    <string name="dictionary">English</string>
+    <string name="content_description_open_drawer">Open Drawer</string>
+    <string name="content_description_close_drawer">Closed Drawer</string>
+    <string name="steps">Steps</string>
+    <string name="copy_right" translatable="false">Copyrights © %1$d</string>
+    <string name="advertizment" translatable="false">Advertisement</string>
+    <string name="showingad" translatable="false">Showing Ad</string>
+    <string name="menu_text_settings">Settings</string>
+    <string name="menu_text_exit">Exit</string>
+    <string name="searchview_text_hint">Type Word...</string>
+    <string name="actionbar_text_title_english_words">English Words</string>
+<!--    Test Ads-->
+    <string name="admob__app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_adunit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_adunit_id_conversation">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_adunit_id_tenses">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_adunit_id_present_tense">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_adunit_id_past_tense">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_adunit_id_future_tense">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_adunit_id_pos">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_adunit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_adunit_id_dictionary">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_adunit_id_conversation">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_adunit_id_tenses">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_adunit_id_present_tense">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_adunit_id_past_tense">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_adunit_id_future_tense">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_adunit_id_pos">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="sharetxt">"English Dictionary offline and free. Try it now: "</string>
+    <string name="settings_share">Share</string>
+
+
+    <string name="menu_item_qr_camera_label">QR camera</string>
+    <string name="menu_item_barcode_camera_label">Barcode camera</string>
+    <string name="menu_item_qr_file_label">QR from file</string>
+    <string name="menu_item_qr_generate_label">Generate QR</string>
+    <string name="menu_item_code_list_label">Code list</string>
+    <string name="menu_item_home_label">Home</string>
+    <string name="menu_item_settings_label">Settings</string>
+    <string name="settings_rate_us">Rate us</string>
+    <string name="rateus">Rate Us</string>
+    <string name="aboutus">About Us</string>
+    <string name="shareapp">Share App</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="moreapps">More Apps</string>
+    <!--Real Ads-->
+    <!--<string name="admob__app_id">ca-app-pub-6171388739975381~3391243690</string>
+    <string name="banner_adunit_id">ca-app-pub-6171388739975381/8733810533</string>
+    <string name="banner_adunit_id_conversation">ca-app-pub-6171388739975381/7037585486</string>
+    <string name="banner_adunit_id_tenses">ca-app-pub-6171388739975381/5373930270</string>
+    <string name="banner_adunit_id_present_tense">ca-app-pub-6171388739975381/2556195243</string>
+    <string name="banner_adunit_id_past_tense">ca-app-pub-6171388739975381/5342140688</string>
+    <string name="banner_adunit_id_future_tense">ca-app-pub-6171388739975381/3133999492</string>
+    <string name="banner_adunit_id_pos">ca-app-pub-6171388739975381/4014060220</string>
+    <string name="interstitial_adunit_id">ca-app-pub-6171388739975381/1841879376</string>
+    <string name="interstitial_adunit_id_dictionary">ca-app-pub-6171388739975381/4100377054</string>
+    <string name="interstitial_adunit_id_conversation">ca-app-pub-6171388739975381/1635308893</string>
+    <string name="interstitial_adunit_id_tenses">ca-app-pub-6171388739975381/9130655535</string>
+    <string name="interstitial_adunit_id_present_tense">ca-app-pub-6171388739975381/7626002179</string>
+    <string name="interstitial_adunit_id_past_tense">ca-app-pub-6171388739975381/6121348818</string>
+    <string name="interstitial_adunit_id_future_tense">ca-app-pub-6171388739975381/6519490985</string>
+    <string name="interstitial_adunit_id_pos">ca-app-pub-6171388739975381/8364368770</string>-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="recent">Recent</string>
+    <string name="definitions">Definitions</string>
+    <string name="synonyms">Synonyms</string>
+    <string name="examples">Examples</string>
+    <string name="results">Results</string>
+    <string name="favourites">Favourites</string>
+    <string name="remove">Remove</string>
+    <string name="test">Test your vocabulary</string>
+    <string name="you_re_a_quizzard_harry">You\'re a Quizzard, Harry!</string>
+    <string name="next">Next</string>
+    <string-array name="levelList">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="areaList">
+        <item>ES</item>
+        <item>MS</item>
+        <item>HS</item>
+        <item>KSAT</item>
+        <item>TOEIC</item>
+        <item>TOEFL</item>
+        <item>TEPS</item>
+        <item>SAT</item>
+        <item>IETLS</item>
+        <item>GRE</item>
+        <item>GMAT</item>
+        <item>OVERALL</item>
+    </string-array>
+</resources>

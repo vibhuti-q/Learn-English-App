@@ -1,0 +1,6 @@
+# ninja log v5
+1	526	694012861	CMakeFiles/native-lib.dir/native-lib.cpp.o	61e034f2fcb003f2
+528	621	694012861	C:/Users/kreasons19/Downloads/Clone/JY222012_Learn English (Main App)/EducationalApp/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	a6bea67846d13a5d
+0	11	0	clean	216417567d995b6f
+2	571	694013341	CMakeFiles/native-lib.dir/native-lib.cpp.o	61e034f2fcb003f2
+571	674	694013341	C:/Users/kreasons19/Downloads/Clone/JY222012_Learn English (Main App)/EducationalApp/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	a6bea67846d13a5d

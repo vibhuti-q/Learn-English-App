@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="500dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/closeImage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:padding="5dp"
+            app:srcCompat="@drawable/ic_baseline_close_24"
+            app:tint="@color/black" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/notificationImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:adjustViewBounds="true"
+                    android:visibility="gone" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/text1T"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="8dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:visibility="gone"
+                    tools:text="hi there" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/text2T"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="18sp"
+                    android:visibility="gone"
+                    tools:text="hi there https://source.unsplash.com/rafdffr rtgt fgfgf fdf dfgfgndom/300x300https://source.unsplash.com/random/300x300" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/positive_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/dialog_positive_button_mbb"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:maxLines="1"
+            android:minWidth="100dp"
+            android:padding="6dp"
+            android:shadowColor="@color/black"
+            android:shadowDx="0.5"
+            android:shadowDy="0.3"
+            android:shadowRadius="5"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            tools:text="Get Started" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

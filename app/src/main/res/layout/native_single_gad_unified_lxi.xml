@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <com.google.android.gms.ads.formats.UnifiedNativeAdView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/overlay_dark_20"
+            android:minHeight="50dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="5dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvAdIconlxi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|top|start"
+                        android:background="#FFCC66"
+                        android:text="Ad"
+                        android:textColor="#FFFFFF"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/ad_app_iconlxi"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginEnd="5dp"
+                        android:adjustViewBounds="true"
+                        android:paddingHorizontal="5dp"
+                        android:paddingBottom="5dp"
+                        tools:src="@drawable/logo_lxi" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/ad_headlinelxi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:textColor="?android:attr/textColorPrimary"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            tools:text="Headline" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/ad_advertiserlxi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:ellipsize="end"
+                                android:gravity="bottom"
+                                android:maxLines="1"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:text="Advertiser Name" />
+
+                            <RatingBar
+                                android:id="@+id/ad_starslxi"
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="10dp"
+                                android:isIndicator="true"
+                                android:numStars="5"
+                                android:stepSize="0.5" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/ad_bodylxi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:textSize="12sp"
+                        android:visibility="gone"
+                        tools:text="Body of Advertisement" />
+
+                    <com.google.android.gms.ads.formats.MediaView
+                        android:id="@+id/ad_medialxi"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:orientation="horizontal"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="5dp">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/ad_pricelxi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingEnd="5dp"
+                            android:paddingRight="5dp"
+                            android:textSize="12sp"
+                            tools:text="0.00 INR" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/ad_storelxi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingEnd="5dp"
+                            android:paddingRight="5dp"
+                            android:textSize="12sp"
+                            tools:text="Google" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/ad_call_to_actionlxi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/calibri"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            tools:text="Install" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.gms.ads.formats.UnifiedNativeAdView>
+
+</layout>
+

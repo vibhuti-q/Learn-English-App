@@ -1,0 +1,66 @@
+name;sql
+Conversation;CREATE TABLE "Conversation" (
+	"id"	INTEGER PRIMARY KEY AUTOINCREMENT,
+	"name"	TEXT
+)
+sqlite_sequence;CREATE TABLE sqlite_sequence(name,seq)
+ConversationTypes;CREATE TABLE "ConversationTypes" (
+	"id"	INTEGER PRIMARY KEY AUTOINCREMENT,
+	"type"	TEXT,
+	"conversation_id"	TEXT
+)
+Dialogues;CREATE TABLE "Dialogues" (
+	"id"	INTEGER PRIMARY KEY AUTOINCREMENT,
+	"dialog"	TEXT,
+	"person_name"	TEXT,
+	"conversationType_Id"	TEXT
+)
+phrases;CREATE TABLE "phrases" (
+	"id"	INTEGER PRIMARY KEY AUTOINCREMENT,
+	"eng_phrase"	TEXT,
+	"urdu_phrase"	TEXT
+)
+quizType;CREATE TABLE "quizType" (
+	"id"	INTEGER PRIMARY KEY AUTOINCREMENT,
+	"type"	TEXT
+)
+quiztbl;CREATE TABLE "quiztbl" (
+	"id"	INTEGER PRIMARY KEY AUTOINCREMENT,
+	"question"	TEXT,
+	"opt1"	TEXT,
+	"opt2"	TEXT,
+	"opt3"	REAL,
+	"opt4"	TEXT,
+	"opt5"	TEXT,
+	"answer"	TEXT,
+	"practice_id"	INTEGER
+)
+Tenses;CREATE TABLE "Tenses" (
+	"id"	INTEGER PRIMARY KEY AUTOINCREMENT,
+	"name"	TEXT,
+	"def_urdu"	TEXT,
+	"method_urdu"	TEXT,
+	"def_eng"	TEXT,
+	"method_eng"	TEXT,
+	"MainTense"	TEXT
+)
+partsofspeech;CREATE TABLE "partsofspeech" (
+	"id"	INTEGER PRIMARY KEY AUTOINCREMENT,
+	"name_eng"	TEXT,
+	"name_urdu"	TEXT,
+	"def_eng"	TEXT,
+	"def_urdu"	TEXT,
+	"eg_eng"	TEXT
+)
+quotes;CREATE TABLE "quotes" (
+	"id"	INTEGER PRIMARY KEY AUTOINCREMENT,
+	"eng_quote"	TEXT,
+	"author"	TEXT,
+	"favourite"	TEXT
+)
+tenses_examples;CREATE TABLE "tenses_examples" (
+	"id"	INTEGER PRIMARY KEY AUTOINCREMENT,
+	"urduexample"	TEXT,
+	"englishexample"	TEXT,
+	"tense_id"	TEXT
+)
